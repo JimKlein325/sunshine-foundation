@@ -1,5 +1,5 @@
 <ul>
-  {{#each billsFromPastMonth as |bill|}}
+  {{#each billsWithShortNameWherePossible as |bill|}}
     <p>{{bill.official_title}}, {{bill.last_version_on}}</p>
   {{/each}}
 </ul>
